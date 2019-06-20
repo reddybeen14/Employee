@@ -14,6 +14,7 @@ public class Test1 {
 	Employee ee=ac.getBean("empobj",Employee.class);
 	
 	System.out.println(ee);
+	System.out.println(ee);
 }
 }
 	
