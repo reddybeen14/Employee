@@ -11,5 +11,6 @@ public class Test {
 		ApplicationContext ac=new ClassPathXmlApplicationContext("config.xml");
 		Employee ee=ac.getBean("empobj",Employee.class);
 		System.out.println(ee);
+		System.out.println(ee);
 	}
 }
